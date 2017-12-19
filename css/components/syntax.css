@@ -1,7 +1,7 @@
 .entry .gist {
   background: #eee;
-  border: 1px solid color-border;
-  margin-top: 15px;
+  border: 1px solid #fff;
+  margin: 15px 0px;
   padding: 7px 15px;
   border-radius: 2px;
   text-shadow: 0 0 1px #fff;
@@ -38,9 +38,10 @@
   color: color-link;
 }
 figure.highlight {
+  background: #eee;
   border: 1px solid color-border;
-  margin-top: 15px;
-  padding: 7px 15px;
+  margin: 1em 0;
+  padding: 1em;
   border-radius: 2px;
   text-shadow: 0 0 1px #fff;
   line-height: 1.6;
@@ -59,7 +60,7 @@ figure.highlight figcaption a {
 }
 figure.highlight pre {
   border: none;
-  padding: 10px;
+  padding: 0;
   margin: 0;
 }
 figure.highlight table {
@@ -68,11 +69,13 @@ figure.highlight table {
 }
 figure.highlight .gutter {
   color: color-meta;
+  width: 20px;
   padding-right: 15px;
   border-right: 1px solid color-border;
   text-align: right;
 }
 figure.highlight .code {
+  padding-left: 15px;
   border-left: 1px solid #fff;
   color: #666;
 }
@@ -146,7 +149,4 @@ pre .clojure .title {
 }
 pre .deletion {
   color: #dc322f;
-}
-.gutter {
-  width: 70px;
 }
